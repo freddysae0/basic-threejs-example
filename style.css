@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.button {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: blue;
+  padding: 20px 40px;
+  color: white;
+}
